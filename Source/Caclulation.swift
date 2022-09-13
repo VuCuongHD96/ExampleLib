@@ -10,11 +10,11 @@ import Foundation
 
 public struct Caclulation {
     
-    static func add(a: Int, b: Int) -> Int {
+    public static func add(a: Int, b: Int) -> Int {
         return a + b
     }
     
-    static func minus(a: Int, b: Int) -> Int {
+    public static func minus(a: Int, b: Int) -> Int {
         return a - b
     }
 }
