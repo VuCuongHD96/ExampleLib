@@ -1,0 +1,11 @@
+framework module ExampleLib {
+  umbrella header "ExampleLib.h"
+
+  export *
+  module * { export * }
+}
+
+module ExampleLib.Swift {
+    header "ExampleLib-Swift.h"
+    requires objc
+}
